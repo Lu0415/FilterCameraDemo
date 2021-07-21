@@ -1,0 +1,28 @@
+PODS:
+  - BaseJson4 (1.07)
+  - cge (3.0.0)
+
+DEPENDENCIES:
+  - BaseJson4
+  - cge (from `https://github.com/wysaid/ios-gpuimage-plus.git`)
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - BaseJson4
+
+EXTERNAL SOURCES:
+  cge:
+    :git: https://github.com/wysaid/ios-gpuimage-plus.git
+
+CHECKOUT OPTIONS:
+  cge:
+    :commit: 2af303724b9189482b9fb9a84fd30ba682b1eb19
+    :git: https://github.com/wysaid/ios-gpuimage-plus.git
+
+SPEC CHECKSUMS:
+  BaseJson4: 0c2f9a82205d45f87d425d8be940b6b1c54b585c
+  cge: 65dbbe24555a1e8d8295b9294efaab13fb1e969b
+
+PODFILE CHECKSUM: 3c8bbf488e342895561ba511cecfed393adc5fd5
+
+COCOAPODS: 1.10.0

@@ -1,0 +1,6 @@
+module Pods_CGECameraDemo {
+  umbrella header "Pods-CGECameraDemo-umbrella.h"
+
+  export *
+  module * { export * }
+}

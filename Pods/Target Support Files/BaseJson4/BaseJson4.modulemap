@@ -1,0 +1,6 @@
+module BaseJson4 {
+  umbrella header "BaseJson4-umbrella.h"
+
+  export *
+  module * { export * }
+}

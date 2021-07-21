@@ -1,0 +1,584 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3456767226A552BF00FFF2D4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3456767126A552BF00FFF2D4 /* AppDelegate.swift */; };
+		3456767426A552BF00FFF2D4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3456767326A552BF00FFF2D4 /* SceneDelegate.swift */; };
+		3456767626A552BF00FFF2D4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3456767526A552BF00FFF2D4 /* ViewController.swift */; };
+		3456767926A552BF00FFF2D4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3456767726A552BF00FFF2D4 /* Main.storyboard */; };
+		3456767B26A552C200FFF2D4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3456767A26A552C200FFF2D4 /* Assets.xcassets */; };
+		3456767E26A552C200FFF2D4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3456767C26A552C200FFF2D4 /* LaunchScreen.storyboard */; };
+		3456768D26A554C000FFF2D4 /* FilterCamera.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3456768C26A554C000FFF2D4 /* FilterCamera.storyboard */; };
+		3456769826A555D100FFF2D4 /* FilterSelectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3456769126A555D100FFF2D4 /* FilterSelectionView.swift */; };
+		3456769926A555D100FFF2D4 /* FilterCameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3456769226A555D100FFF2D4 /* FilterCameraViewController.swift */; };
+		3456769A26A555D100FFF2D4 /* StopRecordingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3456769326A555D100FFF2D4 /* StopRecordingView.swift */; };
+		3456769B26A555D100FFF2D4 /* CameraFunctionView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3456769426A555D100FFF2D4 /* CameraFunctionView.xib */; };
+		3456769C26A555D100FFF2D4 /* StopRecordingView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3456769526A555D100FFF2D4 /* StopRecordingView.xib */; };
+		3456769D26A555D100FFF2D4 /* FilterCameraDefine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3456769626A555D100FFF2D4 /* FilterCameraDefine.swift */; };
+		3456769E26A555D100FFF2D4 /* CameraFunctionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3456769726A555D100FFF2D4 /* CameraFunctionView.swift */; };
+		345676AC26A5560900FFF2D4 /* CustomHelper.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 345676A226A5560900FFF2D4 /* CustomHelper.cpp */; };
+		345676AD26A5560900FFF2D4 /* demoUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 345676A326A5560900FFF2D4 /* demoUtils.m */; };
+		345676AE26A5560900FFF2D4 /* CustomFilter_0.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 345676A526A5560900FFF2D4 /* CustomFilter_0.cpp */; };
+		345676AF26A5560900FFF2D4 /* CustomFilter_N.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 345676A626A5560900FFF2D4 /* CustomFilter_N.cpp */; };
+		345676B026A5560900FFF2D4 /* cgeCustomFilters.mm in Sources */ = {isa = PBXBuildFile; fileRef = 345676AA26A5560900FFF2D4 /* cgeCustomFilters.mm */; };
+		345676B326A5567500FFF2D4 /* PreviewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 345676B226A5567500FFF2D4 /* PreviewViewController.swift */; };
+		345676B726A5575800FFF2D4 /* UIViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 345676B626A5575800FFF2D4 /* UIViewExtension.swift */; };
+		345676BA26A557BC00FFF2D4 /* UIViewControllerExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 345676B926A557BC00FFF2D4 /* UIViewControllerExtension.swift */; };
+		345676BF26A5582B00FFF2D4 /* FilterCameraViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 345676BE26A5582A00FFF2D4 /* FilterCameraViewModel.swift */; };
+		345676C226A565AB00FFF2D4 /* CustomFilterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 345676C126A565AB00FFF2D4 /* CustomFilterView.swift */; };
+		345676C526A565B700FFF2D4 /* CustomFilterView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 345676C426A565B700FFF2D4 /* CustomFilterView.xib */; };
+		345676CA26A5718C00FFF2D4 /* AdjustTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 345676C826A5718C00FFF2D4 /* AdjustTableViewCell.swift */; };
+		345676CB26A5718C00FFF2D4 /* AdjustTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 345676C926A5718C00FFF2D4 /* AdjustTableViewCell.xib */; };
+		345676D026A5730C00FFF2D4 /* AdjustTitleTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 345676CE26A5730C00FFF2D4 /* AdjustTitleTableViewCell.swift */; };
+		345676D126A5730C00FFF2D4 /* AdjustTitleTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 345676CF26A5730C00FFF2D4 /* AdjustTitleTableViewCell.xib */; };
+		345676D626A573C600FFF2D4 /* FilterAdjustModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 345676D526A573C600FFF2D4 /* FilterAdjustModel.swift */; };
+		A2A103477C7E83824B6C46FD /* libPods-CGECameraDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E153E3ECAC41D607C515D16E /* libPods-CGECameraDemo.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0AF89965BDEBA828EE8D6E10 /* Pods-CGECameraDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CGECameraDemo.debug.xcconfig"; path = "Target Support Files/Pods-CGECameraDemo/Pods-CGECameraDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		3456766E26A552BF00FFF2D4 /* CGECameraDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CGECameraDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3456767126A552BF00FFF2D4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3456767326A552BF00FFF2D4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		3456767526A552BF00FFF2D4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3456767826A552BF00FFF2D4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3456767A26A552C200FFF2D4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3456767D26A552C200FFF2D4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3456767F26A552C200FFF2D4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3456768C26A554C000FFF2D4 /* FilterCamera.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = FilterCamera.storyboard; sourceTree = "<group>"; };
+		3456769126A555D100FFF2D4 /* FilterSelectionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FilterSelectionView.swift; sourceTree = "<group>"; };
+		3456769226A555D100FFF2D4 /* FilterCameraViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FilterCameraViewController.swift; sourceTree = "<group>"; };
+		3456769326A555D100FFF2D4 /* StopRecordingView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StopRecordingView.swift; sourceTree = "<group>"; };
+		3456769426A555D100FFF2D4 /* CameraFunctionView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CameraFunctionView.xib; sourceTree = "<group>"; };
+		3456769526A555D100FFF2D4 /* StopRecordingView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = StopRecordingView.xib; sourceTree = "<group>"; };
+		3456769626A555D100FFF2D4 /* FilterCameraDefine.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FilterCameraDefine.swift; sourceTree = "<group>"; };
+		3456769726A555D100FFF2D4 /* CameraFunctionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CameraFunctionView.swift; sourceTree = "<group>"; };
+		345676A126A5560800FFF2D4 /* CGECameraDemo-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CGECameraDemo-Bridging-Header.h"; sourceTree = "<group>"; };
+		345676A226A5560900FFF2D4 /* CustomHelper.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CustomHelper.cpp; sourceTree = "<group>"; };
+		345676A326A5560900FFF2D4 /* demoUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = demoUtils.m; sourceTree = "<group>"; };
+		345676A426A5560900FFF2D4 /* cgeCustomFilters.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cgeCustomFilters.h; sourceTree = "<group>"; };
+		345676A526A5560900FFF2D4 /* CustomFilter_0.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CustomFilter_0.cpp; sourceTree = "<group>"; };
+		345676A626A5560900FFF2D4 /* CustomFilter_N.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CustomFilter_N.cpp; sourceTree = "<group>"; };
+		345676A726A5560900FFF2D4 /* demoUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = demoUtils.h; sourceTree = "<group>"; };
+		345676A826A5560900FFF2D4 /* CustomHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomHelper.h; sourceTree = "<group>"; };
+		345676A926A5560900FFF2D4 /* CustomFilter_0.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomFilter_0.h; sourceTree = "<group>"; };
+		345676AA26A5560900FFF2D4 /* cgeCustomFilters.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = cgeCustomFilters.mm; sourceTree = "<group>"; };
+		345676AB26A5560900FFF2D4 /* CustomFilter_N.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomFilter_N.h; sourceTree = "<group>"; };
+		345676B226A5567500FFF2D4 /* PreviewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreviewViewController.swift; sourceTree = "<group>"; };
+		345676B626A5575800FFF2D4 /* UIViewExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewExtension.swift; sourceTree = "<group>"; };
+		345676B926A557BC00FFF2D4 /* UIViewControllerExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewControllerExtension.swift; sourceTree = "<group>"; };
+		345676BE26A5582A00FFF2D4 /* FilterCameraViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FilterCameraViewModel.swift; sourceTree = "<group>"; };
+		345676C126A565AB00FFF2D4 /* CustomFilterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomFilterView.swift; sourceTree = "<group>"; };
+		345676C426A565B700FFF2D4 /* CustomFilterView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CustomFilterView.xib; sourceTree = "<group>"; };
+		345676C826A5718C00FFF2D4 /* AdjustTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdjustTableViewCell.swift; sourceTree = "<group>"; };
+		345676C926A5718C00FFF2D4 /* AdjustTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AdjustTableViewCell.xib; sourceTree = "<group>"; };
+		345676CE26A5730C00FFF2D4 /* AdjustTitleTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdjustTitleTableViewCell.swift; sourceTree = "<group>"; };
+		345676CF26A5730C00FFF2D4 /* AdjustTitleTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AdjustTitleTableViewCell.xib; sourceTree = "<group>"; };
+		345676D526A573C600FFF2D4 /* FilterAdjustModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterAdjustModel.swift; sourceTree = "<group>"; };
+		A986AB6A021BA723E4BDEDF5 /* Pods-CGECameraDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CGECameraDemo.release.xcconfig"; path = "Target Support Files/Pods-CGECameraDemo/Pods-CGECameraDemo.release.xcconfig"; sourceTree = "<group>"; };
+		E153E3ECAC41D607C515D16E /* libPods-CGECameraDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CGECameraDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3456766B26A552BF00FFF2D4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A2A103477C7E83824B6C46FD /* libPods-CGECameraDemo.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3456766526A552BF00FFF2D4 = {
+			isa = PBXGroup;
+			children = (
+				3456767026A552BF00FFF2D4 /* CGECameraDemo */,
+				3456766F26A552BF00FFF2D4 /* Products */,
+				47FC1CE49FD6E0CABA9E877D /* Pods */,
+				4A4AFCF0AA85DE50AE8F05B7 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		3456766F26A552BF00FFF2D4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3456766E26A552BF00FFF2D4 /* CGECameraDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3456767026A552BF00FFF2D4 /* CGECameraDemo */ = {
+			isa = PBXGroup;
+			children = (
+				345676D326A5739C00FFF2D4 /* Model */,
+				345676BC26A5580B00FFF2D4 /* ViewModel */,
+				345676A026A555E500FFF2D4 /* FilterLibrary */,
+				3456768F26A5559700FFF2D4 /* FilterCamera */,
+				3456768B26A554A400FFF2D4 /* Storyboard */,
+				3456767126A552BF00FFF2D4 /* AppDelegate.swift */,
+				3456767326A552BF00FFF2D4 /* SceneDelegate.swift */,
+				3456767526A552BF00FFF2D4 /* ViewController.swift */,
+				3456767726A552BF00FFF2D4 /* Main.storyboard */,
+				3456767A26A552C200FFF2D4 /* Assets.xcassets */,
+				3456767C26A552C200FFF2D4 /* LaunchScreen.storyboard */,
+				3456767F26A552C200FFF2D4 /* Info.plist */,
+				345676B526A5572B00FFF2D4 /* Extension */,
+			);
+			path = CGECameraDemo;
+			sourceTree = "<group>";
+		};
+		3456768B26A554A400FFF2D4 /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				3456768C26A554C000FFF2D4 /* FilterCamera.storyboard */,
+			);
+			path = Storyboard;
+			sourceTree = "<group>";
+		};
+		3456768F26A5559700FFF2D4 /* FilterCamera */ = {
+			isa = PBXGroup;
+			children = (
+				345676C726A5716A00FFF2D4 /* TableVIewCell */,
+				3456769726A555D100FFF2D4 /* CameraFunctionView.swift */,
+				3456769426A555D100FFF2D4 /* CameraFunctionView.xib */,
+				3456769626A555D100FFF2D4 /* FilterCameraDefine.swift */,
+				3456769226A555D100FFF2D4 /* FilterCameraViewController.swift */,
+				3456769126A555D100FFF2D4 /* FilterSelectionView.swift */,
+				3456769326A555D100FFF2D4 /* StopRecordingView.swift */,
+				3456769526A555D100FFF2D4 /* StopRecordingView.xib */,
+				345676B226A5567500FFF2D4 /* PreviewViewController.swift */,
+				345676C126A565AB00FFF2D4 /* CustomFilterView.swift */,
+				345676C426A565B700FFF2D4 /* CustomFilterView.xib */,
+			);
+			path = FilterCamera;
+			sourceTree = "<group>";
+		};
+		345676A026A555E500FFF2D4 /* FilterLibrary */ = {
+			isa = PBXGroup;
+			children = (
+				345676A426A5560900FFF2D4 /* cgeCustomFilters.h */,
+				345676AA26A5560900FFF2D4 /* cgeCustomFilters.mm */,
+				345676A526A5560900FFF2D4 /* CustomFilter_0.cpp */,
+				345676A926A5560900FFF2D4 /* CustomFilter_0.h */,
+				345676A626A5560900FFF2D4 /* CustomFilter_N.cpp */,
+				345676AB26A5560900FFF2D4 /* CustomFilter_N.h */,
+				345676A226A5560900FFF2D4 /* CustomHelper.cpp */,
+				345676A826A5560900FFF2D4 /* CustomHelper.h */,
+				345676A726A5560900FFF2D4 /* demoUtils.h */,
+				345676A326A5560900FFF2D4 /* demoUtils.m */,
+				345676A126A5560800FFF2D4 /* CGECameraDemo-Bridging-Header.h */,
+			);
+			path = FilterLibrary;
+			sourceTree = "<group>";
+		};
+		345676B526A5572B00FFF2D4 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				345676B626A5575800FFF2D4 /* UIViewExtension.swift */,
+				345676B926A557BC00FFF2D4 /* UIViewControllerExtension.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		345676BC26A5580B00FFF2D4 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				345676BD26A5581300FFF2D4 /* FilterCamera */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		345676BD26A5581300FFF2D4 /* FilterCamera */ = {
+			isa = PBXGroup;
+			children = (
+				345676BE26A5582A00FFF2D4 /* FilterCameraViewModel.swift */,
+			);
+			path = FilterCamera;
+			sourceTree = "<group>";
+		};
+		345676C726A5716A00FFF2D4 /* TableVIewCell */ = {
+			isa = PBXGroup;
+			children = (
+				345676C826A5718C00FFF2D4 /* AdjustTableViewCell.swift */,
+				345676C926A5718C00FFF2D4 /* AdjustTableViewCell.xib */,
+				345676CE26A5730C00FFF2D4 /* AdjustTitleTableViewCell.swift */,
+				345676CF26A5730C00FFF2D4 /* AdjustTitleTableViewCell.xib */,
+			);
+			path = TableVIewCell;
+			sourceTree = "<group>";
+		};
+		345676D326A5739C00FFF2D4 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				345676D426A573A300FFF2D4 /* FilterCamera */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		345676D426A573A300FFF2D4 /* FilterCamera */ = {
+			isa = PBXGroup;
+			children = (
+				345676D526A573C600FFF2D4 /* FilterAdjustModel.swift */,
+			);
+			path = FilterCamera;
+			sourceTree = "<group>";
+		};
+		47FC1CE49FD6E0CABA9E877D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0AF89965BDEBA828EE8D6E10 /* Pods-CGECameraDemo.debug.xcconfig */,
+				A986AB6A021BA723E4BDEDF5 /* Pods-CGECameraDemo.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		4A4AFCF0AA85DE50AE8F05B7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E153E3ECAC41D607C515D16E /* libPods-CGECameraDemo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3456766D26A552BF00FFF2D4 /* CGECameraDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3456768226A552C200FFF2D4 /* Build configuration list for PBXNativeTarget "CGECameraDemo" */;
+			buildPhases = (
+				E1886CC273117B889EC34887 /* [CP] Check Pods Manifest.lock */,
+				3456766A26A552BF00FFF2D4 /* Sources */,
+				3456766B26A552BF00FFF2D4 /* Frameworks */,
+				3456766C26A552BF00FFF2D4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CGECameraDemo;
+			productName = CGECameraDemo;
+			productReference = 3456766E26A552BF00FFF2D4 /* CGECameraDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3456766626A552BF00FFF2D4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					3456766D26A552BF00FFF2D4 = {
+						CreatedOnToolsVersion = 12.4;
+						LastSwiftMigration = 1240;
+					};
+				};
+			};
+			buildConfigurationList = 3456766926A552BF00FFF2D4 /* Build configuration list for PBXProject "CGECameraDemo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3456766526A552BF00FFF2D4;
+			productRefGroup = 3456766F26A552BF00FFF2D4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3456766D26A552BF00FFF2D4 /* CGECameraDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3456766C26A552BF00FFF2D4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3456769C26A555D100FFF2D4 /* StopRecordingView.xib in Resources */,
+				3456767E26A552C200FFF2D4 /* LaunchScreen.storyboard in Resources */,
+				3456769B26A555D100FFF2D4 /* CameraFunctionView.xib in Resources */,
+				345676D126A5730C00FFF2D4 /* AdjustTitleTableViewCell.xib in Resources */,
+				3456768D26A554C000FFF2D4 /* FilterCamera.storyboard in Resources */,
+				3456767B26A552C200FFF2D4 /* Assets.xcassets in Resources */,
+				345676C526A565B700FFF2D4 /* CustomFilterView.xib in Resources */,
+				345676CB26A5718C00FFF2D4 /* AdjustTableViewCell.xib in Resources */,
+				3456767926A552BF00FFF2D4 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		E1886CC273117B889EC34887 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CGECameraDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3456766A26A552BF00FFF2D4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				345676B726A5575800FFF2D4 /* UIViewExtension.swift in Sources */,
+				345676D026A5730C00FFF2D4 /* AdjustTitleTableViewCell.swift in Sources */,
+				3456767626A552BF00FFF2D4 /* ViewController.swift in Sources */,
+				345676AF26A5560900FFF2D4 /* CustomFilter_N.cpp in Sources */,
+				345676BF26A5582B00FFF2D4 /* FilterCameraViewModel.swift in Sources */,
+				3456769D26A555D100FFF2D4 /* FilterCameraDefine.swift in Sources */,
+				345676BA26A557BC00FFF2D4 /* UIViewControllerExtension.swift in Sources */,
+				345676AE26A5560900FFF2D4 /* CustomFilter_0.cpp in Sources */,
+				345676C226A565AB00FFF2D4 /* CustomFilterView.swift in Sources */,
+				345676CA26A5718C00FFF2D4 /* AdjustTableViewCell.swift in Sources */,
+				345676D626A573C600FFF2D4 /* FilterAdjustModel.swift in Sources */,
+				345676B026A5560900FFF2D4 /* cgeCustomFilters.mm in Sources */,
+				3456767226A552BF00FFF2D4 /* AppDelegate.swift in Sources */,
+				3456769A26A555D100FFF2D4 /* StopRecordingView.swift in Sources */,
+				3456767426A552BF00FFF2D4 /* SceneDelegate.swift in Sources */,
+				3456769E26A555D100FFF2D4 /* CameraFunctionView.swift in Sources */,
+				345676B326A5567500FFF2D4 /* PreviewViewController.swift in Sources */,
+				345676AD26A5560900FFF2D4 /* demoUtils.m in Sources */,
+				3456769926A555D100FFF2D4 /* FilterCameraViewController.swift in Sources */,
+				345676AC26A5560900FFF2D4 /* CustomHelper.cpp in Sources */,
+				3456769826A555D100FFF2D4 /* FilterSelectionView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		3456767726A552BF00FFF2D4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3456767826A552BF00FFF2D4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3456767C26A552C200FFF2D4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3456767D26A552C200FFF2D4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3456768026A552C200FFF2D4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3456768126A552C200FFF2D4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3456768326A552C200FFF2D4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0AF89965BDEBA828EE8D6E10 /* Pods-CGECameraDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 77NM82ZWM9;
+				INFOPLIST_FILE = CGECameraDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = N037.CGECameraDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "CGECameraDemo/FilterLibrary/CGECameraDemo-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		3456768426A552C200FFF2D4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A986AB6A021BA723E4BDEDF5 /* Pods-CGECameraDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 77NM82ZWM9;
+				INFOPLIST_FILE = CGECameraDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = N037.CGECameraDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "CGECameraDemo/FilterLibrary/CGECameraDemo-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3456766926A552BF00FFF2D4 /* Build configuration list for PBXProject "CGECameraDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3456768026A552C200FFF2D4 /* Debug */,
+				3456768126A552C200FFF2D4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3456768226A552C200FFF2D4 /* Build configuration list for PBXNativeTarget "CGECameraDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3456768326A552C200FFF2D4 /* Debug */,
+				3456768426A552C200FFF2D4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3456766626A552BF00FFF2D4 /* Project object */;
+}

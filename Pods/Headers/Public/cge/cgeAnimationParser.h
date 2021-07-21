@@ -1,0 +1,1 @@
+../../../cge/library/cge/interfaces/cgeAnimationParser.h

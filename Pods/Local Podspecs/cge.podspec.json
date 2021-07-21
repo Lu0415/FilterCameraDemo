@@ -1,0 +1,23 @@
+{
+  "name": "cge",
+  "version": "3.0.0",
+  "summary": "cge source code",
+  "description": "libCGE",
+  "homepage": "https://github.com/wysaid/ios-gpuimage-plus",
+  "license": "MIT",
+  "authors": {
+    "wysaid": "admin@wysaid.org"
+  },
+  "platforms": {
+    "ios": "7.0"
+  },
+  "source": {
+    "git": "https://github.com/wysaid/ios-gpuimage-plus.git",
+    "tag": "3.0.0"
+  },
+  "prefix_header_file": "library/cge/libCGE-Prefix.pch",
+  "source_files": "library/cge/**/*.{h,hpp,c,cpp,mm,m}",
+  "ios": {
+    "frameworks": "MobileCoreServices"
+  }
+}
